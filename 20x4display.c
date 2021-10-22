@@ -5,7 +5,6 @@
  * Displaying date, time and system temperature
 */
 
-
 #include <wiringPiI2C.h>
 #include <wiringPi.h>
 #include <stdlib.h>
@@ -72,7 +71,6 @@ int main()   {
     LCDdisplayStr("in C language");
     lcdLoc(LINE3);
     LCDdisplayStr(asctime (timeinfo)); //display date & time
-    
     
     lcdLoc(LINE4);
     LCDdisplayStr("Temp.:");
